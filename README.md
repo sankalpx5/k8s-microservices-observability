@@ -76,7 +76,6 @@ helm upgrade --install grafana-k8s-monitoring grafana/k8s-monitoring \
 
 ## 🖥️ Grafana Dashboard Setup
 
-- Imported dashboards from Grafana Labs (IDs: **315**, **6417**, **15759**)  
 - Created a **custom dashboard** showing:
   - CPU & Memory usage per node  
   - Pod count by namespace  
@@ -109,18 +108,12 @@ sum(rate(container_cpu_usage_seconds_total[5m])) by (instance)
 
 ---
 
-## 🧠 Learnings
-This was my **first hands-on experience with Kubernetes and Grafana**, and through this project I:  
-- Deployed a microservices app end-to-end  
-- Integrated Grafana Cloud monitoring & logging  
-- Built a custom observability dashboard from scratch  
-
----
 
 
----
 
-### 📸 Screenshots (Optional)
-*(Replace below lines with your actual screenshots)*  
-- `![Dashboard Overview](screenshots/dashboard-overview.png)`  
-- `![Logs View](screenshots/logs.png)`  
+### 📸 Screenshots 
+<img width="1858" height="470" alt="Screenshot 2025-10-31 013458" src="https://github.com/user-attachments/assets/fce5d886-5b0c-457e-8628-a3a26f816acc" />  <img width="1863" height="404" alt="Screenshot 2025-10-31 013511" src="https://github.com/user-attachments/assets/5c802ef8-9e92-4325-9617-696dcc8134eb" />
+<img width="1861" height="446" alt="Screenshot 2025-10-31 013521" src="https://github.com/user-attachments/assets/76b38527-4550-4c41-bdf4-474d15464585" />
+<img width="1859" height="603" alt="Screenshot 2025-10-31 013532" src="https://github.com/user-attachments/assets/01165b03-ff74-492e-98e4-e9410909d46d" />
+
+
